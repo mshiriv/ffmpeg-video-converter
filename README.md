@@ -25,11 +25,11 @@ sudo nano /etc/apt/sources.list
 
 Add the following lines at the end of the file:
 
-# deb-multimedia
+\# deb-multimedia
 deb http://www.deb-multimedia.org jessie main non-free
 deb-src http://www.deb-multimedia.org jessie main non-free
 
-# jessie-backports
+\# jessie-backports
 deb http://httpredir.debian.org/debian/ jessie-backports main
 
 Update the package list and install deb-multimedia keyring:
