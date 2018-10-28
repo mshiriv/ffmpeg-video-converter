@@ -2,7 +2,9 @@
 This project created inorder to convert video(add watermark,resolution change and ... ) as needs via ffmpeg video converter.
 first at all,you should install ffmpeg package on your linux system:
 
-| `sudo yum install epel-release -y` |
+```bash
+sudo yum install epel-release -y
+```
 
 There are no official FFmpeg rpm packages for CentOS for now. Instead, you can use a 3rd-party YUM repo, Nux Dextop, to finish the job.
 On CentOS 7, you can install the Nux Dextop YUM repo with the following commands:
